@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Padauk:wght@700&family=Poppins:wght@500&display=swap');
+
+.cabecalho {
+    padding-bottom: 29px;
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    align-items: center;
+    justify-content: center;
+    position: re;
+}
+a {
+    text-decoration: none;
+    padding: 5px;
+    
+}
+.container-cabecalho {
+    display: flex;
+    padding-top: 29px;
+    position: relative;
+
+}
+
+.container-cabecalho a {
+    color:#0D0D0D;
+}
+.esquerdo{
+    color: #0D0D0D;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+.fa-solid {
+    color:  #F63D3D;
+}
+.home a {
+    color: #F63D3D;
+    text-decoration: underline;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+li.active, li:hover {
+  background-color: #FFC632;
+  border-radius: 24px;
+  transition: .5s;
+}
+.esquerdo {
+    display: flex;
+    align-items: center;
+}
+.lado-esquerdo{
+    display: flex;
+    gap: 44px;
+    padding-left: 118px;
+}
+.logo{
+    padding: 0px 44px;
+}
+.direito{
+    display: flex;
+    align-items: center;
+    color: #0D0D0D;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 18px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.lado-direito {
+    display: flex;
+    gap: 44px;
+    padding-right: 62px;
+}

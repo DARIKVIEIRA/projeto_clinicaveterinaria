@@ -1,0 +1,119 @@
+.main-principal{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1600px;
+    align-items: center;
+    position: relative;
+    background-color: 
+    #FFC632;
+}
+
+.container-main {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1600px;
+    height: 900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.conteudo-escrito-main{
+    width: auto;
+    position: absolute;
+    padding-right: 20px;
+    margin-left: 100px;
+    z-index: 2;
+}
+
+.conteudo-escrito-main h1 {
+    color-scheme: #0D0D0D;
+    font-size: 48px;
+    line-height: 58px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+}
+.conteudo-escrito-main p{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 30px;
+}
+ .botao-main{
+    gap: 24px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+ }
+.botao-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    border-radius: 20px;
+    border: none;
+    background: #F63D3D;
+    box-shadow: rgba(246, 61, 61, 0.7);
+}
+.escrita-botao1 {
+    color: #FFFFFF;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 14px 53px;
+}
+
+.botao-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    border-radius: 20px;
+    border: none;
+    border: 3px solid #F63D3D;
+    background: transparent;
+    box-shadow: rgba(246, 61, 61, 0.7);
+}
+.escrita-botao2{
+    color: #F63D3D;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 14px 53px; 
+}
+.imagem-main{
+    position: relative;
+    padding-top: 112px;
+    margin: 0 auto;
+    max-width: 1600px;
+    width: 100%;
+}
+
+
+.eclipse {
+    position: absolute;
+    right: 0px;
+} 
+
+.mask {
+    position: absolute;
+    right: 55px;
+    top: 112px;
+}
+
+.dog {
+    position: relative;
+    right: -40%;
+    bottom: -2px;
+    z-index: 1;
+}
+
+.gato {
+    position: absolute;
+    right: -0px;
+    bottom: 2px;
+}

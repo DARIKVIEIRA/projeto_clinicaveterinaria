@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Padauk:wght@700&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    height: auto;
+    text-decoration: none;
+  
+}
+
+
+.topo-red {
+    display: flex;
+    margin: 0 auto;
+    height: 62px;
+    width: 100%;
+    max-width: 1600px;
+    background-color: #F63D3D;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-topo-red h5 {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icones-direita {
+    display: flex;
+    gap: 39px;
+}
