@@ -1,0 +1,50 @@
+.bestseller {
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    max-width: 1600px;
+    position: relative;
+}
+
+.container-bestseller {
+    max-width: 1170px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.nome-best h2 {
+    font-size: 48px;
+    font-family: 'Roboto';
+}
+.nome-best span {
+    color: #F63D3D;
+}
+ .todos-produtos {
+    padding-top: 31px;
+    padding-bottom: 127px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+ }
+.todos-produtos .star{
+    padding-top: 12px;
+    padding-bottom: 11px;
+}
+.todos-produtos h4 {
+    font-size: 18px;
+    font-family: 'Poppins';
+    line-height: 27px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.todos-produtos h3 {
+    font-size: 18px;
+    font-family: 'Poppins';
+    line-height: 27px;
+    font-weight: 500;
+    color: #F63D3D;
+}
+
+
